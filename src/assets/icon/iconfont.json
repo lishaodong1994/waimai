@@ -1,0 +1,72 @@
+{
+  "id": "2988481",
+  "name": "waimai",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1306",
+      "name": "购物车空",
+      "font_class": "gouwuchekong",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "26227316",
+      "name": "购物车空",
+      "font_class": "gouwuchekong-copy",
+      "unicode": "e804",
+      "unicode_decimal": 59396
+    },
+    {
+      "icon_id": "113675",
+      "name": "放大镜",
+      "font_class": "search2",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "577335",
+      "name": "订单",
+      "font_class": "dingdan",
+      "unicode": "e737",
+      "unicode_decimal": 59191
+    },
+    {
+      "icon_id": "1718359",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "26227296",
+      "name": "订单",
+      "font_class": "dingdan-copy",
+      "unicode": "e802",
+      "unicode_decimal": 59394
+    },
+    {
+      "icon_id": "26227297",
+      "name": "我的",
+      "font_class": "wode-copy",
+      "unicode": "e803",
+      "unicode_decimal": 59395
+    },
+    {
+      "icon_id": "2932834",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e800",
+      "unicode_decimal": 59392
+    },
+    {
+      "icon_id": "26227284",
+      "name": "放大镜",
+      "font_class": "fangdajing-copy",
+      "unicode": "e801",
+      "unicode_decimal": 59393
+    }
+  ]
+}
