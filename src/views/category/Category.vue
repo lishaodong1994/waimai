@@ -7,7 +7,7 @@
           <img src="~assets/logo.png" alt="" />
         </div>
         <div class="shop_title_content_info">
-          <h5><span>品牌</span>嘉禾一品（温都水城）<b></b></h5>
+          <h5><span>品牌</span>嘉禾一品（温都水城）`<b></b>`</h5>
           <p>
             <span>月售90件</span><span>硅谷专送</span><span>约20分钟</span
             ><span>距离1000m</span>

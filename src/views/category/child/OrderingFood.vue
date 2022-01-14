@@ -21,7 +21,6 @@
       class="orderingFood_contents"
       :probeType="3"
       @scrollevent="scrollevent"
-      @scrollStartEvent="scrollLeft"
       v-if="orderingFood.length"
     >
       <div>
@@ -77,7 +76,6 @@ export default {
   computed: {
     ...mapState(['orderingFood']),
     current() {
-      console.log(2222222222222);
       const { scrollY, positionyArr } = this;
       return positionyArr.findIndex((tops, index) => {
         return scrollY >= tops && scrollY < positionyArr[index + 1];
@@ -86,7 +84,7 @@ export default {
   },
   watch: {
     current() {
-      this.scrollLeft(this.current);
+      this.scrollLeft();
     },
   },
   components: {
@@ -125,6 +123,7 @@ export default {
       this.$refs.scroll2.go(0, -this.positionyArr[i], 0);
     },
     scrollLeft() {
+      console.log(11111111);
       let leftscroll = this.$refs.leftscroll;
       let el = leftscroll[this.current];
       this.$refs.scroll1.scroll.scrollToElement(el, 200, true, true);

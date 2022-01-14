@@ -31,7 +31,6 @@
         </div>
         <div><span>送达时间</span><span>28分钟</span></div>
       </div>
-      <div></div>
     </div>
     <div class="assess_user_say">
       <div class="say_filter1">

@@ -34,13 +34,13 @@ export default {
     TabBar,
     ShopCollection,
     ShopList,
-    scrollHeight:0,
-    homeScroll:null
   },
   data() {
     return {
       swiperdata: [],
       shoplistData: [],
+      scrollHeight:0,
+      homeScroll:null
     };
   },
   created(){

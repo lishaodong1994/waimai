@@ -51,11 +51,7 @@ export default {
         });
         // this.scroll.on('scrollEnd', () => {
         //   this.$emit("scrollevent", position);
-        // })
-        this.scroll.on('scrollStart', () => {
-          this.$emit("scrollStartEvent");
-        })
-        
+        // })   
       }
       if (this.pullUpLoad) {//监听上拉加载事件
         this.scroll.on("pullingUp", () => {
